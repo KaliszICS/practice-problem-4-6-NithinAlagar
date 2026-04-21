@@ -45,15 +45,13 @@ public class PracticeProblem {
 	    Scanner s = new Scanner(System.in);
 	    for (int i = 0; i<4; i++){
 			System.out.print("Input an integer: ");
-    	    while (!s.hasNextInt());
+    	    while (!s.hasNextInt()){
     	        System.out.print("Input an integer: ");
 				s.nextLine();
-    	        
-    	    } 
-	        
-	    }
+    	    }  
+    	    }
+		return true;
 	    
-	    return true;
 	}
 
 }
