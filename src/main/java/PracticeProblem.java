@@ -48,10 +48,12 @@ public class PracticeProblem {
     	    while (!s.hasNextInt()){
     	        System.out.print("Input an integer: ");
 				s.nextLine();
-    	    }  
     	    }
-		return true;
-	    
-	}
+    	    
+    	        
+    	    }
+    	    return true;
+	        
+	    }
 
 }
