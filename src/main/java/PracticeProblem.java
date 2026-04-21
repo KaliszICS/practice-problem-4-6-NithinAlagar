@@ -3,7 +3,10 @@ import java.util.Scanner;
 public class PracticeProblem {
 
 	public static void main(String args[]) {
-
+	intChecker();
+	doubleChecker();
+	booleanChecker();
+	multipleIntChecker();
 	}
 		public static int intChecker(){
 	    Scanner s = new Scanner(System.in);
