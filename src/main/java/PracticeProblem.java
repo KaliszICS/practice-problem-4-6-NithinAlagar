@@ -50,7 +50,7 @@ public class PracticeProblem {
     	        s.nextLine();
     	    }
     	s.nextInt();
-    	        
+		s.nextLine();    	        
     	    } 
     return true;
 	        
