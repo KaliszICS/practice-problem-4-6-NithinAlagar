@@ -34,7 +34,7 @@ public class PracticeProblem {
 	    Scanner s = new Scanner(System.in);
 		System.out.print("Input a boolean: ");
 	    while (!(s.hasNextBoolean())){
-	        System.out.print("Input an integer: ");
+	        System.out.print("Input a boolean: ");
 			s.nextLine();
 	        }
 	    return s.nextBoolean();
