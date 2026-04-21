@@ -10,33 +10,33 @@ public class PracticeProblem {
 	}
 		public static int intChecker(){
 	    Scanner s = new Scanner(System.in);
-	    do{
-	        s.nextLine();
+		System.out.print("Input an integer: ");
+	    while (!s.hasNextInt()){
 	        System.out.print("Input an integer: ");
-	        
-	    } while (!s.hasNextInt());
+			s.nextLine();
+	        }
 	    return s.nextInt();
 	    
 	}
 	
 	public static double doubleChecker(){
 	    Scanner s = new Scanner(System.in);
-	    do{
-	        s.nextLine();
-	        System.out.print("Input a number: ");
-	        
-	    } while (!s.hasNextDouble());
+		System.out.print("Input a double: ");
+	    while (!s.hasNextDouble()){
+	        System.out.print("Input a double: ");
+			s.nextLine();
+	        }
 	    return s.nextDouble();
 	    
 	}
 	
 	public static boolean booleanChecker(){
 	    Scanner s = new Scanner(System.in);
-	    do{
-	        s.nextLine();
-	        System.out.print("Input a boolean: ");
-	        
-	    } while (!s.hasNextBoolean());
+		System.out.print("Input a boolean: ");
+	    while (!s.hasNextboolean()){
+	        System.out.println("Input an integer: ");
+			s.nextLine();
+	        }
 	    return s.nextBoolean();
 	    
 	}
@@ -44,12 +44,12 @@ public class PracticeProblem {
 	public static boolean multipleIntChecker(){
 	    Scanner s = new Scanner(System.in);
 	    for (int i = 0; i<4; i++){
-    	    do{
-    	        s.nextLine();
+			System.out.print("Input an integer: ");
+    	    while (!s.hasNextInt());
     	        System.out.print("Input an integer: ");
+				s.nextLine();
     	        
-    	    } while (!s.hasNextInt());
-    	    s.nextLine();
+    	    } 
 	        
 	    }
 	    
