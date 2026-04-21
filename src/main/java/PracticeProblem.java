@@ -8,10 +8,10 @@ public class PracticeProblem {
 	booleanChecker();
 	multipleIntChecker();
 	}
-		public static int intChecker(){
+	public static int intChecker(){
 	    Scanner s = new Scanner(System.in);
 		System.out.print("Input an integer: ");
-	    while (!s.hasNextInt()){
+	    while (!(s.hasNextInt())){
 	        System.out.print("Input an integer: ");
 			s.nextLine();
 	        }
@@ -22,7 +22,7 @@ public class PracticeProblem {
 	public static double doubleChecker(){
 	    Scanner s = new Scanner(System.in);
 		System.out.print("Input a double: ");
-	    while (!s.hasNextDouble()){
+	    while (!(s.hasNextDouble())){
 	        System.out.print("Input a double: ");
 			s.nextLine();
 	        }
@@ -33,8 +33,8 @@ public class PracticeProblem {
 	public static boolean booleanChecker(){
 	    Scanner s = new Scanner(System.in);
 		System.out.print("Input a boolean: ");
-	    while (!s.hasNextBoolean()){
-	        System.out.println("Input an integer: ");
+	    while (!(s.hasNextBoolean())){
+	        System.out.print("Input an integer: ");
 			s.nextLine();
 	        }
 	    return s.nextBoolean();
@@ -49,10 +49,11 @@ public class PracticeProblem {
     	        System.out.print("Input an integer: ");
     	        s.nextLine();
     	    }
-    	s.nextInt();
-		s.nextLine();    	        
+    	   s.nextInt();
+    	   s.nextLine();
+    	        
     	    } 
-    return true;
+    	    return true;
 	        
 	    }
 
