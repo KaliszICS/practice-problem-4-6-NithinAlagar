@@ -44,11 +44,12 @@ public class PracticeProblem {
 	public static boolean multipleIntChecker(){
 	    Scanner s = new Scanner(System.in);
 	    for (int i = 0; i<4; i++){
-	    do{
-	        s.nextLine();
-	        System.out.print("Input an integer: ");
-	        
-	    } while (!s.hasNextInt());
+    	    do{
+    	        s.nextLine();
+    	        System.out.print("Input an integer: ");
+    	        
+    	    } while (!s.hasNextInt());
+    	    s.nextLine();
 	        
 	    }
 	    
