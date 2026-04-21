@@ -1,3 +1,16 @@
+/**
+
+        * File: Lesson 4.6 - input validation
+
+        * Author: Nithin.A
+
+        * Date Created: april 15th, 2026
+
+        * Date Last Modified: april 21th, 2026
+
+        */
+
+
 import java.util.Scanner;
 
 public class PracticeProblem {
