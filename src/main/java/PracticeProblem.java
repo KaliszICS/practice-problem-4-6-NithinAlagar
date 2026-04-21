@@ -33,7 +33,7 @@ public class PracticeProblem {
 	public static boolean booleanChecker(){
 	    Scanner s = new Scanner(System.in);
 		System.out.print("Input a boolean: ");
-	    while (!s.hasNextboolean()){
+	    while (!s.hasNextBoolean()){
 	        System.out.println("Input an integer: ");
 			s.nextLine();
 	        }
