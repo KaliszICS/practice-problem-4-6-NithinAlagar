@@ -21,9 +21,9 @@ public class PracticeProblem {
 	
 	public static double doubleChecker(){
 	    Scanner s = new Scanner(System.in);
-		System.out.print("Input a double: ");
+		System.out.print("Input a number: ");
 	    while (!(s.hasNextDouble())){
-	        System.out.print("Input a double: ");
+	        System.out.print("Input a number: ");
 			s.nextLine();
 	        }
 	    return s.nextDouble();
